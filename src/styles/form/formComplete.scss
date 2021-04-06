@@ -1,0 +1,13 @@
+@import './inputsLabels.scss';
+@import './submitBtn.scss';
+
+.form{
+    width: 50%;
+    padding: 30px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

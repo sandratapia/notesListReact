@@ -1,0 +1,35 @@
+.note{
+    background-color: #FFFFA5;
+    margin: 15px 0;
+    padding: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    .note__complete{
+        margin-right: 10px;
+        h2{
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 10px;
+            &:first-letter{
+                text-transform: capitalize;
+            }
+        }
+        p{
+            font-size: 17px;
+            line-height: 1.2;
+            &:first-letter{
+                text-transform: capitalize;
+            }
+        }
+    }
+    .delete{
+        cursor: pointer;
+        padding: 10px;
+        text-decoration: underline;
+        font-weight: 500;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}
